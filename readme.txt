@@ -1,33 +1,27 @@
-=== DiviSpace - Divi & Gravity Forms ===
-Contributors: DiviSpace
-Donate link: http://divispace.com/wordpress-plugins/
-Tags: divi, divi theme, gravityforms, gravity forms
-Requires at least: 4.0
-Tested up to: 4.4
-Stable tag: 1.3.3
+=== Gravity Forms Divi Styling Add-On ===
+Contributors: divispace, bmwillrath
+Donate link: http://www.divispace.com/wordpress-plugins/
+Tags: divi, gravityforms, divi theme, gravity forms, divi gravity forms, divi gravityforms, extra, extra theme
+Requires at least: 3.8
+Tested up to: 4.5
+Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Responsive Divi form styles for Gravity Forms.
+Divi Styling for Gravity Forms brings the beauty of the Divi Theme to your Gravity Forms. Simply activate the plugin and all Gravity Forms will have the Divi Styling
 
 == Description ==
 
-This plugin adds the same styling for Gravity Forms as Divi Theme has for its own forms. This is a very lightweight plugin with minified css to reduce the loading time as low as possible.
+Divi looks amazing, Gravity forms is amazing, but together they both look out of place.
 
-= Responsive style =
+This plugin eliminates that, Divi Styling for Gravity Forms brings the beauty of Divi to the Power & Logic of Gravity Forms. Simply install the plugin and activate, and your Gravity Forms will look and feel as if they are meant to be there. They will adopt the styling of Divi and respect the customizations you've made in the "Theme Customizer"
 
-It also adds responsive styles to Gravity Forms. So you can use complex forms, halves or thirds fields, your form will look great on mobile screens also.
+= Requirements =
 
-You have to buy the Divi Theme and the Gravity Forms Plugin to use this plugin:
+This plugin works with Divi by Elegant Themes,  and Gravity Forms. If you don't have these plugins installed, this plugin won't work.
 
-- [Divi by Elegant Themes](http://divispace.com/go/elegantthemes/) (affiliate link)
-- [Gravity Forms](http://divispace.com/go/gravityforms/) (affiliate link)
-
-**My plugins for Divi theme:**
-
-- [DiviSpace - Divi Extras](https://wordpress.org/plugins/divispace-divi-extras/)
-- [DiviSpace - Divi & Gravity Forms](https://wordpress.org/plugins/gravityforms-divi/)
-- [DiviSpace - Divi Project Shortcodes](https://wordpress.org/plugins/divispace-divi-project-shortcodes/)
+- [Divi by Elegant Themes](http://www.divispace.com/go/divi/) (Affiliate Link)
+- [Gravity Forms](http://www.divispace.com/go/gravityforms/) (Affiliate Link)
 
 **Do you want to contribute or help improving this plugin?**
 
@@ -41,83 +35,56 @@ Please feel free to contribute, help or recommend any new features for my plugin
 
 **Do you want to know more about me?**
 
-Visit my webpage: [DiviSpace.com](http://divispace.com/)
+Visit my webpage: [DiviSpace.com](http://www.divispace.com/)
 
 == Installation ==
+= The Easy Way: =
+1. Login to your wp-admin Dashboard
+2. Click Plugins
+3. Click "Add New" (up the top)
+4. Search for "Divi Styling for Gravity Forms"
+5. Click "Install"
+6. Click "Activate"
+7. Navigate to Divi > Backup/Restore Theme Options and begin using the plugin
 
-1. Upload the `gravityforms-divi` folder to the `/wp-content/plugins/` directory.
-1. Activate the DiviSpace - Divi & Gravity Forms plugin through the 'Plugins' menu in WordPress.
-1. That's it.
+= The Hard Way: =
+1. Find FTP Details to your Website
+2. Navigate to the /wp-content/plugins/ folder
+3. Upload the extracted zip folder `backup-restore-divi-theme-options` to the plugins folder
+4. Login to you Wordpress Dashboard
+5. Click Plugins
+6. Find "Backup Restore Divi Theme Options"
+7. Click activate on the plugin.
+8. Navigate to Divi > Backup/Restore Theme Options and begin using the plugin
+
 
 == Frequently Asked Questions ==
 
-= What does DiviSpace mean? =
+= Do I have to use DiviSpace for this to work? =
 
-It is the reverse version of my last name. ;)
+No, This will work on any Divi/Wordpress Install. You only need to have Divi & Gravity Forms installed
+
+= Will this work with other themes? =
+
+Maybe, This plugin is designed & tested for Divi & Gravity Forms, If you want to style your Gravity Forms to look like Divi then this plugin will probably work, but try it at your own risk.
+
+= Do you have a github repo of this plugin? =
+
+Yes, you can find us at https://github.com/DiviSpace/gravityforms-divi
+
+= I love this plugin and I want to help make it better =
+
+Awesome, We'd love to have you on board, fork us on GitHub, make your changes and submit a pull request, we'll review it and if we like what we see, we'll be in contact.
+If you have no idea what GitHub even means, Just click on the "Issues" tab and suggest a the feature you want, we'll review and build it if we think it fits.
+https://github.com/DiviSpace/gravityforms-divi
+
 
 == Changelog ==
 
-= 1.3.3 =
+= 1.1 =
 
-- Fixed button text color setting. (Props Tevya)
-- Tested with WordPress 4.4 version.
-- Checked for PHP 7 compatibility.
+* Tidied up everything. Made it look pretty
 
-= 1.3.2 =
+= 1.0 =
 
-- Fixed an undefined variable. (Props Tevya)
-
-= 1.3.1 =
-
-- Fix for submit button. (Props agiuliano)
-
-= 1.3.0 =
-
-- Form buttons are now controlled by Divi's Buttons Style options in the customizer. I have made it safe to update without loosing any styling, but please check your forms after updating the plugin! Especially if you have custom css for these buttons. Any feedback is welcome!
-- Fixed textdomain path for localization.
-- Minor code fixes.
-
-= 1.2.5 =
-
-- Fixed responsive styling for Gravity Forms CSS Ready Classes. (Props Guilamu)
-
-= 1.2.4 =
-
-- Tested with WordPress 4.2 version.
-- Fixed date and time fields.
-
-= 1.2.3 =
-
-- Fixes in description.
-
-= 1.2.2 =
-
-- Added links in the plugin description to my other plugins for Divi theme. Give them a try!
-
-= 1.2.1 =
-
-- Changed description.
-
-= 1.2.0 =
-
-- Responsive styles added! :)
-- Minor fixes in css.
-- Changed description.
-
-= 1.1.1 =
-
-- Fix localization.
-
-= 1.1.0 =
-
-- Prevent direct access to plugin's file.
-- Check for Divi Theme and Gravity Forms plugin, if they already installed and activated.
-
-= 1.0.1 =
-
-- Added Hungarian language.
-
-= 1.0.0 =
-
-- Initial release.
-- First commit to the official WordPress repo.
+* First Version, Hopefully no bugs.

@@ -1,18 +1,15 @@
 <?php
 /*
-Plugin Name: Gravity Forms Divi Styling Add-On
-Plugin URI: http://www.divispace.com
-Description: Divi Styling for Gravty Forms brings the beauty of the Divi Theme to your Gravity Forms. Simply activate the plugin and all Gravity Forms will have the Divi Styling
-
-Version: 1.0
-
-Author: DiviSpace
-Author URI: http://www.divispace.com/
-
-License: GPLv2
-
-Text Domain: gravityforms-divi
-Domain Path: /languages/
+* Plugin Name: Gravity Forms Divi Styling Add-On
+* Description: Divi Styling for Gravity Forms brings the beauty of the Divi Theme to your Gravity Forms. Simply activate the plugin and all Gravity Forms will have the Divi Styling
+* Theme URI: https://github.com/DiviSpace/gravityforms-divi
+* Author: Divi Space
+* Author URI: http://www.DiviSpace.com
+* Version: 1.1
+* License: GNU General Public License v2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Tags: divi, gravityforms, divi theme, gravity forms, divi gravity forms, divi gravityforms, extra, extra theme
+* Text Domain: gravityforms-divi
 */
 
 // Prevent direct access to the plugin
