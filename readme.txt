@@ -1,4 +1,4 @@
-=== Gravity Forms Divi Styling Add-On ===
+=== Divi Styling Add-On for Gravity Forms ===
 Contributors: divispace, bmwillrath
 Donate link: http://www.divispace.com/wordpress-plugins/
 Tags: divi, gravityforms, divi theme, gravity forms, divi gravity forms, divi gravityforms, extra, extra theme
@@ -8,7 +8,7 @@ Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Divi Styling for Gravity Forms brings the beauty of the Divi Theme to your Gravity Forms. Simply activate the plugin and all Gravity Forms will have the Divi Styling
+Have your Gravity Forms look just like the rest of Divi
 
 == Description ==
 
@@ -25,7 +25,7 @@ This plugin works with Divi by Elegant Themes,  and Gravity Forms. If you don't 
 
 **Do you want to contribute or help improving this plugin?**
 
-You can find it on GitHub: [https://github.com/DiviSpace/gravityforms-divi](https://github.com/DiviSpace/gravityforms-divi)
+You can find it on GitHub: [https://github.com/DiviSpace/gf-divi](https://github.com/DiviSpace/gf-divi)
 
 **You can find my other plugins and projects on GitHub:**
 
@@ -70,13 +70,13 @@ Maybe, This plugin is designed & tested for Divi & Gravity Forms, If you want to
 
 = Do you have a github repo of this plugin? =
 
-Yes, you can find us at https://github.com/DiviSpace/gravityforms-divi
+Yes, you can find us at https://github.com/DiviSpace/gf-divi
 
 = I love this plugin and I want to help make it better =
 
 Awesome, We'd love to have you on board, fork us on GitHub, make your changes and submit a pull request, we'll review it and if we like what we see, we'll be in contact.
 If you have no idea what GitHub even means, Just click on the "Issues" tab and suggest a the feature you want, we'll review and build it if we think it fits.
-https://github.com/DiviSpace/gravityforms-divi
+https://github.com/DiviSpace/gf-divi
 
 
 == Changelog ==
@@ -84,6 +84,7 @@ https://github.com/DiviSpace/gravityforms-divi
 = 1.1 =
 
 * Tidied up everything. Made it look pretty
+* Changed "gravityforms" to "gf" to avoid Trademark Issues
 
 = 1.0 =
 

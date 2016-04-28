@@ -21,38 +21,38 @@ msgstr ""
 "X-Textdomain-Support: yes"
 
 #. translators: plugin header field 'Name'
-#: gravityforms-divi.php:0
-#@ gravityforms-divi
+#: gf-divi.php:0
+#@ gf-divi
 msgid "DiviSpace - Divi & Gravity Forms"
 msgstr "DiviSpace - Divi & Gravity Forms"
 
 #. translators: plugin header field 'PluginURI'
-#: gravityforms-divi.php:0
-#@ gravityforms-divi
+#: gf-divi.php:0
+#@ gf-divi
 msgid "http://divispace.com/wordpress-plugins/"
 msgstr "http://divispace.hu/wordpress-bovitmenyek/"
 
 #. translators: plugin header field 'Description'
-#: gravityforms-divi.php:0
-#@ gravityforms-divi
+#: gf-divi.php:0
+#@ gf-divi
 msgid "Divi form styles for Gravity Forms."
 msgstr "Divi űrlap stílusok a Gravity Forms-hoz."
 
 #. translators: plugin header field 'Author'
-#: gravityforms-divi.php:0
-#@ gravityforms-divi
+#: gf-divi.php:0
+#@ gf-divi
 msgid "DiviSpace"
 msgstr "DiviSpace"
 
 #. translators: plugin header field 'AuthorURI'
-#: gravityforms-divi.php:0
-#@ gravityforms-divi
+#: gf-divi.php:0
+#@ gf-divi
 msgid "http://divispace.com/"
 msgstr "http://divispace.hu/"
 
 #. translators: plugin header field 'Version'
-#: gravityforms-divi.php:0
-#@ gravityforms-divi
+#: gf-divi.php:0
+#@ gf-divi
 msgid "1.0.0"
 msgstr ""
 
