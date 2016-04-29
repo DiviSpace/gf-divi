@@ -4,7 +4,7 @@ Donate link: http://www.divispace.com/wordpress-plugins/
 Tags: divi, gravityforms, divi theme, gravity forms, divi gravity forms, divi gravityforms, extra, extra theme
 Requires at least: 3.8
 Tested up to: 4.5
-Stable tag: trunk
+Stable tag: latest
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
