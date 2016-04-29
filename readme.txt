@@ -16,6 +16,8 @@ Divi looks amazing, Gravity forms is amazing, but together they both look out of
 
 This plugin eliminates that, Divi Styling for Gravity Forms brings the beauty of Divi to the Power & Logic of Gravity Forms. Simply install the plugin and activate, and your Gravity Forms will look and feel as if they are meant to be there. They will adopt the styling of Divi and respect the customizations you've made in the "Theme Customizer"
 
+NOTE: We are not affiliated with Gravity Forms, this is an unofficial Add-On
+
 = Requirements =
 
 This plugin works with Divi by Elegant Themes,  and Gravity Forms. If you don't have these plugins installed, this plugin won't work.
@@ -80,6 +82,10 @@ https://github.com/DiviSpace/gf-divi
 
 
 == Changelog ==
+
+= 1.2.2 =
+* Added assets
+* Added Not GF Disclamer
 
 = 1.2.1 =
 * Minor Code Cleanup
