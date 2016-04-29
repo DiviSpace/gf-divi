@@ -5,7 +5,7 @@
  * Theme URI: https://github.com/DiviSpace/gf-divi
  * Author: Divi Space
  * Author URI: http://www.DiviSpace.com
- * Version: 1.2
+ * Version: 1.2.1
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Tags: divi, gravityforms, divi theme, gravity forms, divi gravity forms, divi gravityforms, extra, extra theme

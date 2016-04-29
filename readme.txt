@@ -81,6 +81,9 @@ https://github.com/DiviSpace/gf-divi
 
 == Changelog ==
 
+= 1.2.1 =
+* Minor Code Cleanup
+
 = 1.2 =
 * Changed "gravityforms" to "gf" to avoid Trademark Issues
 * Fixed issue with duplicate files in plugins folder
