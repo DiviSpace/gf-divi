@@ -3,7 +3,7 @@ class DS_Gravity_Form_Module extends ET_Builder_Module {
 	/*initialize plugin*/
 	function init() {
 		$this->name = esc_html__( 'Gravity Form', 'et_builder' );
-		$this->slug = 'et_pb_gravity_form5';
+		$this->slug = 'et_pb_gravity_form6';
 
 		/*initialize the field */
 		$this->whitelisted_fields = array(
@@ -28,7 +28,7 @@ class DS_Gravity_Form_Module extends ET_Builder_Module {
 		global $wpdb;
 		//get all gravity forms
 		$forms = $wpdb->get_results("select * from ".$wpdb->prefix."rg_form");
-		$arr[0] = "Please select";
+		$arr[0] = __('Please select','gf-divi');
 		foreach($forms as $form)
 		{
 			//setup the array for select box
@@ -38,42 +38,42 @@ class DS_Gravity_Form_Module extends ET_Builder_Module {
 		//setup the fields
 		$fields = array(
 			'form_id' => array(
-				'label'             => esc_html__( 'Form', 'et_builder' ),
+				'label'             => esc_html__( __('Form','gf-divi'), 'et_builder' ),
 				'type'              => 'select',
 				'option_category'   => 'configuration',
 				'options'           => $arr,
 			),
 			'show_title' => array(
-				'label' => esc_html__( 'Show Form Title', 'et_builder' ),
+				'label' => esc_html__( __('Show Form Title','gf-divi'), 'et_builder' ),
 				'type' => 'yes_no_button',
 				'option_category' => 'configuration',
 				'options' => array(
-					'on' => esc_html__( 'Yes', 'et_builder' ),
-					'off' => esc_html__( 'No', 'et_builder' ),
+					'on' => esc_html__( __('Yes','gf-divi'), 'et_builder' ),
+					'off' => esc_html__( __('No','gf-divi'), 'et_builder' ),
 				),
-				'description' => esc_html__( 'This will show gravity form title.', 'et_builder' ),
+				'description' => esc_html__( __('This will show gravity form title.','gf-divi'), 'et_builder' ),
 			),
 				
 			'show_description' => array(
-				'label' => esc_html__( 'Show Form Description', 'et_builder' ),
+				'label' => esc_html__( __('Show Form Description','gf-divi'), 'et_builder' ),
 				'type' => 'yes_no_button',
 				'option_category' => 'configuration',
 				'options' => array(
-					'on' => esc_html__( 'Yes', 'et_builder' ),
-					'off' => esc_html__( 'No', 'et_builder' ),
+					'on' => esc_html__( __('Yes','gf-divi'), 'et_builder' ),
+					'off' => esc_html__( __('No','gf-divi'), 'et_builder' ),
 				),
-				'description' => esc_html__( 'This will show gravity form description', 'et_builder' ),
+				'description' => esc_html__( __('This will show gravity form description','gf-divi'), 'et_builder' ),
 			), 
 			
 			'enable_ajax' => array(
-				'label' => esc_html__( 'Enable Ajax', 'et_builder' ),
+				'label' => esc_html__( __('Enable Ajax','gf-divi'), 'et_builder' ),
 				'type' => 'yes_no_button',
 				'option_category' => 'configuration',
 				'options' => array(
-					'on' => esc_html__( 'Yes', 'et_builder' ),
-					'off' => esc_html__( 'No', 'et_builder' ),
+					'on' => esc_html__( __('Yes','gf-divi'), 'et_builder' ),
+					'off' => esc_html__( __('No','gf-divi'), 'et_builder' ),
 				),
-				'description' => esc_html__( 'This will enable Ajax', 'et_builder' ),
+				'description' => esc_html__( __('This will enable Ajax','gf-divi'), 'et_builder' ),
 			),
 		);
 		return $fields;

@@ -85,6 +85,7 @@ https://github.com/DiviSpace/gf-divi
 
 = 1.3 =
 * Added Gravity Form Module for Divi Builder
+* Added localization for Gravity Form Module
 
 = 1.2.2 =
 * Added assets
