@@ -83,6 +83,9 @@ https://github.com/DiviSpace/gf-divi
 
 == Changelog ==
 
+= 1.3 =
+* Added Gravity Form Module for Divi Builder
+
 = 1.2.2 =
 * Added assets
 * Added Not GF Disclamer
