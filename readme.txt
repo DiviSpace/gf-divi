@@ -29,15 +29,15 @@ This plugin works with Divi by Elegant Themes,  and Gravity Forms. If you don't 
 
 You can find it on GitHub: [https://github.com/DiviSpace/gf-divi](https://github.com/DiviSpace/gf-divi)
 
-**You can find my other plugins and projects on GitHub:**
+**You can find our other plugins and projects on GitHub:**
 
 [https://github.com/DiviSpace](https://github.com/DiviSpace)
 
-Please feel free to contribute, help or recommend any new features for my plugins, themes and other projects.
+Please feel free to contribute, help or recommend any new features for our plugins, themes and other projects.
 
 **Do you want to know more about me?**
 
-Visit my webpage: [DiviSpace.com](http://www.divispace.com/)
+Visit our website: [DiviSpace.com](http://www.divispace.com/)
 
 == Installation ==
 = The Easy Way: =
@@ -47,17 +47,17 @@ Visit my webpage: [DiviSpace.com](http://www.divispace.com/)
 4. Search for "Divi Styling for Gravity Forms"
 5. Click "Install"
 6. Click "Activate"
-7. Navigate to Divi > Backup/Restore Theme Options and begin using the plugin
+7. You're Done, All Gravity Forms will now have Divi styling Site Wide
 
 = The Hard Way: =
 1. Find FTP Details to your Website
 2. Navigate to the /wp-content/plugins/ folder
-3. Upload the extracted zip folder `backup-restore-divi-theme-options` to the plugins folder
+3. Upload the extracted zip folder `gf-divi` to the plugins folder
 4. Login to you Wordpress Dashboard
 5. Click Plugins
-6. Find "Backup Restore Divi Theme Options"
+6. Find "Divi Styling Add-On for Gravity Forms"
 7. Click activate on the plugin.
-8. Navigate to Divi > Backup/Restore Theme Options and begin using the plugin
+8. You're Done, All Gravity Forms will now have Divi styling Site Wide
 
 
 == Frequently Asked Questions ==
@@ -82,6 +82,9 @@ https://github.com/DiviSpace/gf-divi
 
 
 == Changelog ==
+
+= 1.2.3 =
+* Updated Readme.txt
 
 = 1.2.2 =
 * Added assets
